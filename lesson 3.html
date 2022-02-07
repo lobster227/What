@@ -2,9 +2,9 @@
 <html>
 <style>
     #header-img {
-        display: flex;
-        width: 100%;
-        height: auto;
+
+        width: auto;
+        height: 100%;
     }
 
     @media (max-height: 800px) {
@@ -20,10 +20,12 @@
         width: 100%;
         display: flex;
         height: 100px;
+        justify-content: space-between;
+        background-color: aqua;
     }
 
     #main {
-        align-self: flex-end;
+        margin-top: 120px;
     }
 
     #form {
@@ -31,10 +33,16 @@
         align-self: center;
     }
     .img-container{
-
+        width: 30%;
+        height: 100%;
     }
-    #nav-bar{
-        
+    .list{
+        display: flex;
+        justify-content: space-between;
+    }
+    .list-item{
+        width: 33%;
+
     }
 
 </style>
@@ -48,14 +56,14 @@
     <header id="header">
 
         <nav id="nav-bar">
-            <ul>
-                <li>
+            <ul class="list">
+                <li class="list-item">
                     <a href="#footer1" class="nav-link">Голуб</a>
                 </li>
-                <li>
+                <li class="list-item">
                     <a href="#footer2" class="nav-link">Баклан</a>
                 </li>
-                <li>
+                <li class="list-item">
                     <a href="#footer3" class="nav-link">Журавель</a>
                 </li>
             </ul>
@@ -97,18 +105,18 @@
             Види цього роду поширені в Європі, Азії, Північній Америці та Австралії. До фауни України належать 2 види:
             журавель сірий як гніздовий птах і журавель білий як рідкісний залітний. Усі види роду за способом існування
             пов'язані із заболоченими територіями.</p>
-
+            <form id="form" action="https://www.freecodecamp.org/email-submit">
+                <div>
+                    <input type="email" name="email" id="email" placeholder="email" required>
+                </div>
+                <div>
+                    <button type="submit" id="submit">Submit</button>
+                </div>
+        
+            </form>
     </main>
 
-    <form id="form" action="https://www.freecodecamp.org/email-submit">
-        <div>
-            <input type="email" name="email" id="email" placeholder="email" required>
-        </div>
-        <div>
-            <button type="submit" id="submit">Submit</button>
-        </div>
 
-    </form>
 
 
 </body>
