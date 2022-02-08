@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html>
+<style>
+    #welcome-section {}
+
+    #navbar {
+        position: fixed;
+        left: 0px;
+        top: 0px;
+        background-color: aliceblue;
+        width: 100%;
+    }
+
+    main {
+        margin-top: 130px;
+    }
+
+    .img {
+    height: 300px;
+    }
+    @media (min-width: 800px) {
+        .img{
+            height: 600px;
+        }
+
+    }
+</style>
+
+<head>
+    <title>My portfolio</title>
+
+
+</head>
+
+
+<body>
+    <nav id="navbar">
+        <ul>
+            <li><a href="#welcome-section">My portfolio</a></li>
+            <li><a href="#projects">In this site i learned how work programming</a></li>
+            <li><a href="#github">GitHub</a></li>
+        </ul>
+
+
+    </nav>
+
+
+
+    <main>
+        <div id="welcome-section">
+            <h1>My portfolio</h1>
+            <p>It`s story about me</p>
+            <img src="https://m.media-amazon.com/images/I/71kNvlpS9GL._AC_SL1000_.jpg" alt="Cat in glasses" class="img">
+        </div>
+
+        <div class="project-tile" id="projects">
+            <h2>In this site i learned how work programming</h2>
+            <a target="_blank" href="https://www.freecodecamp.org/">
+                <img src="https://yt3.ggpht.com/ytc/AKedOLRyPFojwY3CXV5ks5TwPrt2VifQn-nYNfkgLvVPkw=s900-c-k-c0x00ffffff-no-rj" alt="FreeCodeCamp logo" class="img" >
+            </a>
+        </div>
+
+        <div class="project-tile" id="github">
+            <h2>It`s place were located all my code</h2>
+            <a id="profile-link" target="_blank" href="https://github.com/lobster227">
+                <img src="https://play-lh.googleusercontent.com/PCpXdqvUWfCW1mXhH1Y_98yBpgsWxuTSTofy3NGMo9yBTATDyzVkqU580bfSln50bFU" alt="GitHub logo" class="img">
+            </a>
+        </div>
+
+    </main>
+
+</body>
+
+</html>
