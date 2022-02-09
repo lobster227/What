@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html>
+<style>
+    body {
+        background-color: rgb(0, 0, 0);
+    }
+
+    #welcome-section {
+        height: 100vh;
+        background-color: rgb(0, 0, 0);
+    }
+
+    #navbar {
+        position: fixed;
+        left: 0px;
+        top: 0px;
+        background-color: #ad1a1f;
+        width: 100%;
+    }
+
+    main {
+        margin-top: 130px;
+        background-color: rgb(77, 77, 233);
+    }
+
+    .img {
+        height: 300px;
+    }
+
+    @media (min-width: 800px) {
+        .img {
+            height: 600px;
+        }
+    }
+
+    #red-text {
+        color: red;
+    }
+
+    .color-white {
+        color: white;
+        text-decoration-line: none;
+    }
+</style>
+
+<head>
+    <title>My portfolio</title>
+
+
+</head>
+
+
+<body>
+    <nav id="navbar">
+        <ul>
+            <li><a href="#welcome-section" class="color-white">My portfolio</a></li>
+            <li><a href="#projects" class="color-white">In this site i learned how work programming</a></li>
+            <li><a href="#github" class="color-white">GitHub</a></li>
+        </ul>
+
+
+    </nav>
+
+
+
+    <main>
+        <div id="welcome-section">
+            <h1 class="color-white">My portfolio</h1>
+            <p id="red-text">It`s story about me</p>
+            <img src="https://m.media-amazon.com/images/I/71kNvlpS9GL._AC_SL1000_.jpg" alt="Cat in glasses" class="img">
+        </div>
+
+        <div id="projects">
+            <h2 class="project-tile">In this site i learned how work programming</h2>
+            <a target="_blank" href="https://www.freecodecamp.org/">
+                <img src="https://yt3.ggpht.com/ytc/AKedOLRyPFojwY3CXV5ks5TwPrt2VifQn-nYNfkgLvVPkw=s900-c-k-c0x00ffffff-no-rj"
+                    alt="FreeCodeCamp logo" class="img">
+            </a>
+        </div>
+
+        <div id="github">
+            <h2 class="project-tile">It`s place were located all my code</h2>
+            <a id="profile-link" target="_blank" href="https://github.com/lobster227">
+                <img src="https://play-lh.googleusercontent.com/PCpXdqvUWfCW1mXhH1Y_98yBpgsWxuTSTofy3NGMo9yBTATDyzVkqU580bfSln50bFU"
+                    alt="GitHub logo" class="img">
+            </a>
+        </div>
+
+
+
+    </main>
+
+</body>
+
+</html>
