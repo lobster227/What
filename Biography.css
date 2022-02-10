@@ -1,3 +1,29 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital@1&display=swap');
+
 body{
-    background-color: aqua;
+    background-color: rgb(239, 252, 255);
+    color:rgb(34, 0, 0);
+    font-family: 'Roboto', sans-serif;
+    
+}
+
+.img-main{
+    width: 300px;
+    border-radius: 12%;
+    box-shadow: 5px 5px 10px;
+}
+
+.info-main p{
+color: brown;
+}
+
+.container{
+margin: auto;
+max-width: 650px;
+}
+
+.info-more{
+background: skyblue;
+border: 2px solid blue;
+ 
 }
