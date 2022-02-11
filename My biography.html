@@ -10,9 +10,11 @@
 
     <div class="info-main">
         <img src="https://m.media-amazon.com/images/I/71kNvlpS9GL._AC_SL1000_.jpg" class="img-main"
-            alt="Cat in glasses">
+                alt="Cat in glasses">
+        <div>
         <h1>My name is Andrew Gumeniuk</h1>
         <p>I`m trying to study programming</p>
+        </div>
     </div>
 
 
@@ -37,27 +39,27 @@
         <a href="https://github.com/lobster227" target="_blank">GitHub</a>
     </div>
 
-
-    <form class="info-more">
+    <div class="info-more">
         <h2>You can write to me here</h2>
+        <form class="form">
+            <Div>
+                <label for="name">Your Name</label>
+                <input type="text" name="name" placeholder="Write your name">
+            </Div>
+            <Div>
+                <label for="email">Your Email</label>
+                <input type="email" name="email" placeholder="Write your email">
+            </Div>
+            <Div>
+                <label for="text">Your massage</label>
+                <textarea name="message" placeholder="What you wanna ask me?"></textarea>
+            </Div>
 
-        <Div>
-            <label for="name">Your Name</label>
-            <input type="text" name="name" placeholder="Write your name">
-        </Div>
-        <Div>
-            <label for="email">Your Email</label>
-            <input type="email" name="email" placeholder="Write your email">
-        </Div>
-        <Div>
-            <textarea name="Your message" placeholder="What you wanna ask me?"></textarea>
-        </Div>
-
-        <Div>
-            <button type="submit">Submit</button>
-        </Div>
-
+            <Div>
+                <button class="btn" type="submit">Submit</button>
+            </Div>
+        </form>
+    </div>
 </body>
 
 </html>
-
